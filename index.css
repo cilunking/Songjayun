@@ -34,7 +34,7 @@ html {
     min-height: 100vh; /* 보이는 화면을 최소 높이로 */
     height: auto; /* 보이는 화면보다 내용이 많으면 자동으로 높이설정 */
 
-    border-bottom: 1px solid #c9e06d;
+    border-bottom: 1px solid #e78b40;
 }
 
 /* 영문에 적용할 클래스 */
@@ -44,7 +44,7 @@ html {
 
 body {
     background-color: #c9e06d;
-    color: #6f6f6f;
+    color: #e78b40;
     font-family: "Noto Sans KR", -apple-system, "Segoe UI", "Malgun Gothic", Arial, sans-serif;
 }
 
@@ -63,6 +63,7 @@ header {
     top: 0;
     z-index: 999;
     transition: background .25s ease;
+    
 }
 
 header .title {
@@ -100,10 +101,11 @@ header .gnb .gnb-menu li a {
     font-family: "Noto Sans", sans-serif;
     /* 영문폰트적용! */
     font-weight: 300;
+    color: #5c5c5c;
 }
 
 header .gnb .gnb-menu li.active a {
-    background-color: #fff;
+    background-color: #e78b40;
     font-weight: 400;
 }
 
@@ -136,7 +138,7 @@ header .gnb .mobile-btn::after {
 
 header .gnb .mobile-btn::before {
     top: 17px;
-    box-shadow: 0 7px 0 #4a4a4a;
+    box-shadow: 0 7px 0 #c9e06d;
 }
 
 header .gnb .mobile-btn::after {
@@ -194,13 +196,13 @@ header .gnb .mobile-menu li a {
 }
 
 header .gnb .mobile-menu li.active a {
-    color: #37bfe4;
+    color: #e78b40;
 }
 header .gnb .mobile-btn, header .gnb .mobile-menu {display: none;}
 
 
 #home {
-    background-image: url(img/image3.png);
+    background-image: url(img/bg_orange1.png);
     background-repeat: no-repeat;
     background-position: bottom -20px right -50px;
     background-size: auto;
@@ -235,7 +237,7 @@ header .gnb .mobile-btn, header .gnb .mobile-menu {display: none;}
 
 #home .title .des {
     font-size: 1.625rem;
-    color: rgba(255, 255, 255, 0.7);
+    color: #e78b40;
     font-weight: 300;
 }
 
@@ -267,8 +269,25 @@ section.project {
     padding-left: 100px;
     padding-bottom: 100px;
     box-sizing: border-box;
-    background-color: rgb(0, 246, 255);
+    background: linear-gradient(to right,#e78b40 0%, #e78b40 40%, #c9e06d 100%);
 }
+
+#motion {
+    background-color: #c9e06d;
+}
+
+#info {
+    background-color: #c9e06d;
+}
+
+#showreel {
+    background-color: #c9e06d;
+}
+
+#ai {
+    background-color: #c9e06d;
+}
+
 .project-side .fixed-box {
     position: sticky;
     top: 100px;
@@ -333,14 +352,14 @@ section.project {
 .project-content .project-info .project-des ul {
     line-height: 1.6;
     flex-grow: 1;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(92, 92, 92, 0.8);
     font-weight: 300;
     letter-spacing: -0.6px;
 }
 
 .project-content .project-info .project-des p {
     flex-grow: 1;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(92, 92, 92, 0.8);
     font-weight: 300;
     letter-spacing: -0.6px;
 }
@@ -360,12 +379,12 @@ section.project {
 }
 
 
-#info .project-side {
+/* #info .project-side {
     background-color: transparent;
-    border-right: 1px solid rgb(0, 246, 255);
-    color: rgb(0, 246, 255);
+    border-right: 1px solid #e78b40;
+    color: #e78b40;
 }
-
+*/
 
 /*** //영상소개 페이지 끝 *****************************************************************************************/
 
@@ -473,7 +492,7 @@ footer {
     #home .title .des {font-size: 18px;}
 
     section.project {display: block;}
-    .project .project-side {background: linear-gradient(to bottom,rgb(0, 246, 255),#c9e06d); width: 100%; max-width: none; padding: 72px 20px 60px;}
+    .project .project-side {background: linear-gradient(to bottom,#e78b40,#c9e06d); width: 100%; max-width: none; padding: 72px 20px 60px;}
     .project-side .fixed-box {display: flex; justify-content: space-between; align-items: center; gap: 16px;}
     .project-side .project-heading {flex: 0 0 auto; margin-bottom: 0;}
     .project-side .project-heading .title {font-size: 36px;}
