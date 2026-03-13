@@ -52,6 +52,12 @@ body {
     color: #e78b40;
 }
 
+.content {
+    color: #e78b40;
+    
+}
+
+
 body {
     background-image: url(img/image6.jpg);
 }
@@ -68,6 +74,10 @@ header {
     z-index: 999;
     transition: background .25s ease;
     
+}
+
+.sub {
+    color: #e78b40;
 }
 
 header .title {
@@ -104,13 +114,14 @@ header .gnb .gnb-menu li a {
     border-radius: 60px;
     font-family: "Noto Sans", sans-serif;
     /* 영문폰트적용! */
-    font-weight: 300;
+    font-weight: 500;
     color: #5c5c5c;
 }
 
 header .gnb .gnb-menu li.active a {
     background-color: #e78b40;
-    font-weight: 400;
+    color:#c9e06d;
+    font-weight: 600;
 }
 
 /* 모바일 메뉴 */
@@ -267,13 +278,16 @@ section.project {
 }
 
 .project .project-side {
-    width: 34%;
+    width: 70%;
     max-width: 600px;
     padding-top: 100px;
-    padding-left: 100px;
+    padding-left: 60px;
     padding-bottom: 100px;
     box-sizing: border-box;
-    background: linear-gradient(to right,#e78b40 0%, #e78b40 40%, #c9e06d 100%);
+    background: linear-gradient(to right,#e78b40 0%,
+    #e78b40 52%,
+    #dca552 74%,
+    #c9e06d 100%);
 }
 
 #motion {
@@ -328,7 +342,7 @@ section.project {
 }
 
 .project-side .project-meta p b {
-    font-weight: 500;
+    font-weight: 700;
 }
 
 
@@ -350,14 +364,14 @@ section.project {
 .project-content .project-info .project-des h4 {
     width: 180px;
     flex: 0 0 180px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .project-content .project-info .project-des ul {
     line-height: 1.6;
     flex-grow: 1;
     color: rgba(92, 92, 92, 0.8);
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: -0.6px;
 }
 
@@ -423,12 +437,15 @@ section.project {
 #contact .content .sec-title h2 {
     font-size: 3.8rem;
     font-family: "Noto Sans", sans-serif;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 #contact .content .sec-title p {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 600;
+    background-color: #f0ffb6;
+    padding: 0 10px;
+    color: #5c5c5c;
 }
 
 #contact .content .personal {
@@ -443,7 +460,7 @@ section.project {
 
 #contact .content .personal p b {
     margin-right: 20px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 #contact .content .personal a:hover {
