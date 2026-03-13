@@ -34,7 +34,7 @@ html {
     min-height: 100vh; /* 보이는 화면을 최소 높이로 */
     height: auto; /* 보이는 화면보다 내용이 많으면 자동으로 높이설정 */
 
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #c9e06d;
 }
 
 /* 영문에 적용할 클래스 */
@@ -43,9 +43,13 @@ html {
 }
 
 body {
-    background-color: plum;
+    background-color: #c9e06d;
     color: #6f6f6f;
     font-family: "Noto Sans KR", -apple-system, "Segoe UI", "Malgun Gothic", Arial, sans-serif;
+}
+
+body {
+    background-image: url(img/image6.jpg);
 }
 
 header {
@@ -196,7 +200,7 @@ header .gnb .mobile-btn, header .gnb .mobile-menu {display: none;}
 
 
 #home {
-    background-image: url(img/bg_star.png);
+    background-image: url(img/image3.png);
     background-repeat: no-repeat;
     background-position: bottom -20px right -50px;
     background-size: auto;
@@ -469,7 +473,7 @@ footer {
     #home .title .des {font-size: 18px;}
 
     section.project {display: block;}
-    .project .project-side {background: linear-gradient(to bottom,rgb(0, 246, 255),#dda1dd); width: 100%; max-width: none; padding: 72px 20px 60px;}
+    .project .project-side {background: linear-gradient(to bottom,rgb(0, 246, 255),#c9e06d); width: 100%; max-width: none; padding: 72px 20px 60px;}
     .project-side .fixed-box {display: flex; justify-content: space-between; align-items: center; gap: 16px;}
     .project-side .project-heading {flex: 0 0 auto; margin-bottom: 0;}
     .project-side .project-heading .title {font-size: 36px;}
