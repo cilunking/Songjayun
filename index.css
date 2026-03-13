@@ -44,8 +44,12 @@ html {
 
 body {
     background-color: #c9e06d;
-    color: #e78b40;
+    color: #c9e06d;
     font-family: "Noto Sans KR", -apple-system, "Segoe UI", "Malgun Gothic", Arial, sans-serif;
+}
+
+.name {
+    color: #e78b40;
 }
 
 body {
