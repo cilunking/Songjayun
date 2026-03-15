@@ -100,3 +100,22 @@ $(function () {
         $('body').removeClass('menu-open');
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const musicBtn = document.getElementById("musicToggle");
+    const bgm = document.getElementById("bgm");
+
+    let isPlaying = false;
+
+    musicBtn.addEventListener("click", () => {
+        if (!isPlaying) {
+            bgm.play();
+            musicBtn.textContent = "🔇 BGM OFF";
+            isPlaying = true;
+        } else {
+            bgm.pause();
+            musicBtn.textContent = "🎵 BGM ON";
+            isPlaying = false;
+        }
+    });
+});
