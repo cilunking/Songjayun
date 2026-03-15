@@ -363,6 +363,8 @@ section.project {
     background-color: #c9e06d;
 }
 
+
+
 .project-side .fixed-box {
     position: sticky;
     top: 100px;
@@ -372,10 +374,10 @@ section.project {
 }
 
 .project-side .project-heading .num {
-    font-size: 70px;
-    font-weight: 700;
+    font-size:3rem;
+    font-weight: 500;
     line-height: 1.2;
-    color: #f0ffb6;
+    color: #c9e06d;
 }
 
 .project-side .project-heading .title {
@@ -412,7 +414,9 @@ section.project {
 }
 
 .project-side .project-meta p b {
-    font-weight: 700;
+    font-size:1.7rem;
+font-weight:700;
+margin-bottom:4px;
 }
 
 
