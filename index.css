@@ -565,12 +565,15 @@ footer {
     header .gnb .mobile-btn, header .gnb .mobile-menu {display: block;}
 
     .page {border-bottom: none;}
-    #home {background-size: 492px auto; background-position: top 32px right -100px;}
+    #home {background-size: cover;
+    background-position: center center;}
     #home .title {left: 20px; bottom: 60px;}
     #home .title .name {margin-bottom: 14px;}
     #home .title .name p {font-size: 22px;}
     #home .title .name h2 {font-size: 36px;}
     #home .title .des {font-size: 18px;}
+
+    
 
     section.project {display: block;}
     .project .project-side {background: linear-gradient(to bottom,#e78b40,#c9e06d); width: 100%; max-width: none; padding: 72px 20px 60px;}
