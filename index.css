@@ -595,6 +595,35 @@ footer {
     );
 }
 
+.scroll-indicator{
+position:absolute;
+bottom:40px;
+left:50%;
+transform:translateX(-50%);
+
+font-size:14px;
+color:#f0ffb6;
+opacity:0.8;
+
+animation:scrollMove 1.6s infinite;
+}
+
+@keyframes scrollMove{
+0%{
+transform:translate(-50%,0);
+opacity:0.5;
+}
+
+50%{
+transform:translate(-50%,10px);
+opacity:1;
+}
+
+100%{
+transform:translate(-50%,0);
+opacity:0.5;
+}
+}
 
 /* 반응형 */
 /* 테블릿 */
