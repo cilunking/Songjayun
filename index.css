@@ -784,20 +784,27 @@ opacity:1;
 transform: scale(1.05);
 }
 
-@media (max-width:768px){
+/* 모바일 hero 조정 */
+@media screen and (max-width:768px){
 
 .scroll-indicator{
-position:relative;
-bottom:auto;
-margin-top:20px;
+position:absolute;
+bottom:140px;
+left:50%;
+transform:translateX(-50%);
+}
+
+#musicToggle{
+bottom:40px;
 }
 
 }
 
-@media (max-width:768px){
+@media screen and (max-width:768px){
 
 .des span{
 font-size:14px;
+padding:12px 20px;
 }
 
 }
