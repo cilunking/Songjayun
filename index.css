@@ -784,10 +784,12 @@ opacity:1;
 transform: scale(1.05);
 }
 
-@media (max-width:768px){
+media (max-width:768px){
 
 .scroll-indicator{
-bottom:90px;
+position:relative;
+bottom:auto;
+margin-top:20px;
 }
 
 }
