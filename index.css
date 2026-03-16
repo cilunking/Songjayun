@@ -809,18 +809,17 @@ line-height:1.2;
 #skill{
 display:inline-block;
 max-width:calc(100% - 40px);
-padding:12px 20px;
+padding:8px 18px;   /* 기존 12px → 8px */
 border-radius:40px;
-margin-top:16px;
+margin-top:12px;
 box-sizing:border-box;
 }
 
-/* 툴 텍스트 */
 #skill span{
-font-size:14px;
+font-size:13px;     /* 14 → 13 */
 font-weight:600;
-line-height:1.5;
-white-space:normal; /* 모바일은 두 줄 허용 */
+line-height:1.35;   /* 줄 간격 줄임 */
+white-space:normal;
 }
 
 /* Scroll 표시 (모바일에서는 제거 추천) */
