@@ -625,6 +625,79 @@ opacity:0.5;
 }
 }
 
+#home .title .name h2 {
+    animation: fadeUp 1s ease forwards;
+    opacity: 0;
+}
+
+#home .title .name p {
+    animation: fadeUp 0.8s ease forwards;
+    opacity: 0;
+}
+
+#home .title .name h2 {
+    animation: fadeUp 1s ease forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+}
+
+#home .title .des {
+    animation: fadeUp 1s ease forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+.scroll-indicator {
+    animation: bounce 1.6s infinite;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) translateY(8px);
+    }
+}
+
+nav a{
+transition:all 0.25s ease;
+}
+
+nav a:hover{
+transform:translateY(-2px);
+}
+
+.project-des1 p{
+transition: transform 0.4s cubic-bezier(.22,.61,.36,1),
+color 0.35s ease,
+opacity 0.35s ease,
+font-weight 0.35s ease;
+
+opacity:0.75;
+color:#dfe7a5;
+font-weight:400;
+}
+
+.video-box:hover + .project-des1 p{
+transform: translateY(-2px) scale(1.02);
+color:#f6ffcc;
+font-weight:500;
+opacity:1;
+}
+
+
 /* 반응형 */
 /* 테블릿 */
 @media (max-width: 1200px) {
@@ -709,4 +782,12 @@ opacity:0.5;
 
 #musicToggle:hover{
 transform: scale(1.05);
+}
+
+@media (max-width:768px){
+
+.scroll-indicator{
+bottom:90px;
+}
+
 }
