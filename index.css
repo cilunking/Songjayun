@@ -784,9 +784,10 @@ opacity:1;
 transform: scale(1.05);
 }
 
-/* 모바일 hero 조정 */
+/* 모바일 스타일 */
 @media screen and (max-width:768px){
 
+/* scroll 위치 조정 */
 .scroll-indicator{
 position:absolute;
 bottom:140px;
@@ -794,17 +795,29 @@ left:50%;
 transform:translateX(-50%);
 }
 
+/* BGM 버튼 위치 */
 #musicToggle{
 bottom:40px;
 }
 
-}
-
-@media screen and (max-width:768px){
-
+/* 툴 pill 스타일 */
 .des span{
 font-size:14px;
-padding:12px 20px;
+font-weight:600;
+padding:12px 18px;
+border-radius:40px;
+display:inline-block;
+white-space:nowrap;
+}
+
+/* pill 영역 너비 조정 */
+#skill{
+max-width:90%;
+}
+
+/* 이름 크기 약간 키우기 */
+#B{
+font-size:34px;
 }
 
 }
