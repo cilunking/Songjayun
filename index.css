@@ -828,3 +828,33 @@ display:none;
 }
 
 }
+
+@media screen and (max-width:768px){
+
+.project{
+flex-direction:column;
+}
+
+.project-side{
+width:100%;
+padding:40px 20px 10px;
+}
+
+.project-content{
+width:100%;
+padding:0 20px 40px;
+}
+
+.fixed-box{
+position:relative;
+}
+
+.project-heading{
+margin-bottom:20px;
+}
+
+.project-meta{
+margin-bottom:30px;
+}
+
+}
