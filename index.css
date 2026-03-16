@@ -958,6 +958,21 @@ display:none;
     margin-bottom: 20px;
   }
 
+   .project-des1{
+    margin:16px 0 0 0;
+    padding:0;
+  }
+
+  .project-des1 p{
+    margin:0;
+    padding:0;
+    font-size:15px;
+    line-height:1.7;
+    text-align:left;
+    color:#f6ffcc; /* 원하시면 유지 */
+    transform:none;
+  }
+
   .project-content .project-info .project-des:nth-child(2){
     margin: 0 0 28px;
   }
@@ -1012,4 +1027,9 @@ display:none;
   footer{
     padding: 24px 0;
   }
+
+  .video-label{
+    display:none;
+  }
+
 }
