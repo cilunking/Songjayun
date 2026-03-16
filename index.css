@@ -1045,3 +1045,14 @@ text-align:left;
 
 
 }
+
+#F{
+transition: transform 0.35s ease,
+box-shadow 0.35s ease;
+display:inline-block;
+}
+
+#F:hover{
+transform: scale(1.04);
+box-shadow: 0 10px 25px rgba(231,139,64,0.35);
+}
