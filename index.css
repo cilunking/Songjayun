@@ -309,7 +309,7 @@ header .gnb .mobile-btn, header .gnb .mobile-menu {display: none;}
 
 #home .title .des {
     font-size: 1.625rem;
-    color: color:#c9e06d;;
+    color: #c9e06d;
     font-weight: 400;
 }
 
@@ -1026,5 +1026,22 @@ text-align:left;
   .video-label{
     display:none;
   }
+
+ .project-content .project-info .project-des1{
+    width: 100%;
+    margin: 16px 0 0 0;
+    padding: 0;
+  }
+
+  .project-content .project-info .project-des1 p{
+    margin-left: 0 !important;
+    margin-top: 16px !important;
+    padding-left: 0 !important;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.7;
+    width: 100%;
+  }
+
 
 }
