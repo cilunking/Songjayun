@@ -331,36 +331,21 @@ header .gnb .mobile-btn, header .gnb .mobile-menu {display: none;}
 
 section.project {
     display: flex;
-    align-items: stretch;
-    background-color: #c9e06d;
-    background-image: linear-gradient(
-        to right,
-        #e78b40 0%,
-        #e78b40 52%,
-        #dca552 74%,
-        #c9e06d 100%
-    );
-    background-repeat: no-repeat;
-    background-size: 600px 100%;
+    
 }
 
 .project .project-side {
-    flex: 0 0 600px;   /* 왼쪽 패널 고정폭 */
-    width: 600px;
-    min-height: 100vh;
-    padding: 100px 40px 100px 60px;
+    width: 70%;
+    max-width: 600px;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-bottom: 100px;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(
-        to right,
-        #e78b40 0%,
-        #e78b40 52%,
-        #dca552 74%,
-        #c9e06d 100%
-    );
+    background: linear-gradient(to right,#e78b40 0%,
+    #e78b40 52%,
+    #dca552 74%,
+    #c9e06d 100%);
 }
-
 
 #motion {
     background-color: #c9e06d;
@@ -436,10 +421,8 @@ margin-bottom:4px;
 
 
 .project .project-content {
-    flex: 1;          /* 오른쪽은 남는 공간 자동 사용 */
-    width: auto;
-    min-width: 0;
-    padding: 140px 40px 100px 5%;
+    width: 66%;
+    padding: 140px 0 100px 5%;
     box-sizing: border-box;
 }
 
@@ -505,7 +488,6 @@ margin-bottom:4px;
     height: 100%;
     border: none;
 }
-
 
 
 /* #info .project-side {
